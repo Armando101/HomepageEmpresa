@@ -1,0 +1,23 @@
+// Variables
+// Fuentes
+$Fuente1: 'Roboto', sans-serif;
+$Fuente2: 'Oswald', sans-serif;
+
+// Brand Colors
+$primary_brand: #db522e;
+$secondary_brand: #4e4d5a;
+
+// Action Colors
+$primary_action: #db522e;
+$secondary_action: #762B18;
+
+// Background
+$primary_background: #f3f3f3;
+$secondary_background: #FFF;
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: $Fuente1;
+	background-color: $primary_background;
+}
