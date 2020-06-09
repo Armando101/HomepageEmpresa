@@ -1,0 +1,11 @@
+<div class="textCards">
+	<div class="textCard" *ngFor="let textCard of textCards">
+		<h2>{{ textCard.title }}</h2>
+		<hr>
+		<app-text-cards-text [id]="textCard.id" ></app-text-cards-text>
+		<div class="space"></div>
+		<div class="boton">
+			<button>Read more</button>
+		</div>
+	</div>
+</div>

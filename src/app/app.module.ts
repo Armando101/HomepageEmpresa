@@ -9,6 +9,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardsComponent } from './components/home/components/cards/cards.component';
 import { CardComponent } from './components/home/components/card/card.component';
+import { TextCardsComponent } from './components/home/components/text-cards/text-cards.component';
+import { TextCardsTextComponent } from './components/home/components/text-cards-text/text-cards-text.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardComponent } from './components/home/components/card/card.component'
     FooterComponent,
     HomeComponent,
     CardsComponent,
-    CardComponent
+    CardComponent,
+    TextCardsComponent,
+    TextCardsTextComponent
   ],
   imports: [
     BrowserModule,
