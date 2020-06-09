@@ -1,0 +1,39 @@
+header {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 10px 20px;
+}
+
+.header {
+	color: $secondary_brand;
+	font-size: 300%;
+	margin-top: 0px;
+	font-family: 'Fugaz One', cursive;
+	font-weight: normal;
+}
+
+.header span {
+	color: $primary_brand;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+
+nav ul li {
+//	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.6);
+	padding: 5px 25px;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	background-color: $primary_brand;
+	color: $secondary_background;
+}
